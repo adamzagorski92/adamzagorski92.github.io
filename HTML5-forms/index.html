@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML5 -form</title>
+</head>
+<body>
+
+    <h1>HTML5 - Training registration form </h1>
+    
+    <form action="https://formspree.io/f/mnnqwzrj" method="POST">
+
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="surname">Surname: </label>
+        <input type="text" name="surname" id="surname" placeholder="Enter your surname">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+        <label for="city">Choose a city:</label>
+        <select name="city" id="city" >
+            <option value="Kraków">Krakrów</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk" selected>Gdańsk</option>
+        </select><br>
+
+        <label>
+            Choose a gender:
+            <label><input type="radio" name="choise">Male</label>
+            <label><input type="radio" name="choise">Female</label>
+        </label><br>
+
+        <label for="agreement">Check the consent box:</label>
+        <Label><input type="checkbox" name="agreement" id="agreement" required>consent for the processing of personal data</Label><br>
+
+        <label for="message">Your message:</label>
+        <textarea name="message" id="message" placeholder="How can we help you today?"></textarea><br>
+
+        <input type="submit" value="Submit">
+        
+
+
+    </form>
+</body>
+</html>
