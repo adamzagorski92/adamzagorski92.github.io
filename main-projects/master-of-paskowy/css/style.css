@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: 1.7px;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    padding: 0;
+    height: 100vh;
+    /* Ustawia wysokość na 100% widocznego obszaru przeglądarki */
+    overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #003366;
+    text-align: center;
+    padding: 1em;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.back-container {
+    flex: 1;
+    background-color: aqua;
+    width: 100%;
+    min-height: 10px;
+    justify-items: center;
+}
+
+.game-display-container {
+    background-color: #CC0000;
+    background-image: url('../src/img/Tło-pokoju.avif');
+    /* Ścieżka do obrazka */
+    background-size: cover;
+    /* Dopasowanie obrazka, aby pokrył całe tło */
+    background-position: center;
+    /* Wyśrodkowanie obrazka */
+    background-repeat: no-repeat;
+    /* Wyłączenie powtarzania obrazka */
+    height: 80%;
+    width: 100%;
+    min-height: 20px;
+
+}
+
+#tv {
+    background-color: black;
+    border-radius: 5px;
+    width: 640px;
+    height: 360px;
+    position: relative;
+    top: 20px;
+    left: 30%;
+
+}
+
+#screen {
+    position: absolute;
+    background-color: #003366;
+    border: 3px solid #003366;
+    background-image: url('../src/img/z30810585AMP\,Ewa-Bugala--W-pelnym-swietle-.jpg');
+    /* Ścieżka do obrazka */
+    background-size: cover;
+    /* Dopasowanie obrazka, aby pokrył całe tło */
+    background-position: center;
+    /* Wyśrodkowanie obrazka */
+    background-repeat: no-repeat;
+    /* Wyłączenie powtarzania obrazka */
+    width: 600px;
+    height: 320px;
+    right: 20px;
+    top: 20px;
+
+
+}
+#pasek {
+    background-color: #0066CC;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width: 595px;
+    height: 35px;
+    margin-top: 270px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+#pasek p {
+    position: absolute;
+    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+    animation: slide-left linear infinite; /* Dodanie animacji */
+}
+
+/* Kluczowe klatki animacji */
+@keyframes slide-left {
+    0% {
+        transform: translateX(600px); /* Start całkowicie poza prawą krawędzią */
+    }
+    100% {
+        transform: translateX(-100%); /* Kończy całkowicie poza lewą krawędzią */
+    }
+}
+
+.paskowy-office-container {
+    background-color: #003366;
+    height: 30%;
+    width: 100%;
+    min-height: 20px;
+
+}
+
+
+.game-score-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #CC0000;
+}
+
