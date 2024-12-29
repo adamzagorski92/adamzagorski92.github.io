@@ -1,0 +1,24 @@
+Zakoduj layout według poniższej specyfikacji używając odpowiednich komponentów Bootstrapa
+
+Podgląd: zdjęcia w sekcji /src/img/after
+
+Projekt zakłada widok dla urządzeń o wielkości okna przeglądarki poniżej i powyżej 768px. Postaraj się użyć jak najmniejszej ilości własnych styli.
+
+Komponenty i funkcjonalności Bootstrapa przydatne w realizacji projektu:
+
+Menu nawigacyjne – https://getbootstrap.com/docs/5.0/components/navbar/#nav
+Slider – https://getbootstrap.com/docs/5.0/components/carousel/#with-captions
+Kolumny – https://getbootstrap.com/docs/5.0/layout/grid/
+Marginesy – https://getbootstrap.com/docs/5.0/utilities/spacing/
+Wyrównanie i formatowanie tekstu – https://getbootstrap.com/docs/5.0/content/typography/
+Formularze – https://getbootstrap.com/docs/5.0/forms/overview/
+Kolory tła:
+
+szary – klasa Bootstrapa .bg-light
+Inne elementy layoutu:
+
+padding sekcji – 60px dolny i górny
+font paragrafów – klasa Bootstrapa .lead
+maksymalna szerokość zdjęć i opisu w sekcji Team – 200px
+
+Grafiki: grafiki w sekcji /src/img
