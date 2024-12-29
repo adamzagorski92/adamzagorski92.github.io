@@ -1,0 +1,5 @@
+.btn-link {
+    border: none; /* Usuwa obramowanie */
+    outline: none; /* Usuwa zarysowanie */
+    box-shadow: none; /* Usuwa cienie focus */
+}

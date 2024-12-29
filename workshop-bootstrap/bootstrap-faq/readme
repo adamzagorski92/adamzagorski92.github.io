@@ -1,0 +1,4 @@
+Za bardzo nie wiem jak przejąć kontrolę nad hoverem linka
+próbowałem skorzystać z klasy: link-warning --bs-text-primary ale tam są w stylach używane !important'y i nie wiem jak to dobrze nadpisać. Trochę mi brakuje dobrych praktyk w podjeściu do bootstrapa, bo grzebanie się w tych klasach jest nieco frapujące :D
+
+Najwięcej czasu zabierają szczegóły. Niekiedy szybciej bym to sam ostylował, lub w innej sytuacji bym zapytał bardziej doświadczonego developera, aby nie tracić czasu na mało istotne pierdoły :D 
