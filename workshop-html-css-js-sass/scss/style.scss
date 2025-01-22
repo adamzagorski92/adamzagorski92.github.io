@@ -5,3 +5,18 @@
 @import 'base/normalize';
 
 @import 'base/global';
+
+@import 'leyout/grid';
+@import 'leyout/nav';
+@import 'leyout/header';
+@import 'leyout/about';
+@import 'leyout/services';
+@import 'leyout/teams';
+@import 'leyout/appointment';
+@import 'leyout/contact';
+@import 'leyout/footer';
+
+
+@import 'components/buttons';
+@import 'components/infoboxes';
+@import 'components/inputs';

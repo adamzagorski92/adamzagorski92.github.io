@@ -1,0 +1,1 @@
+Jak taką aplikację wrzucić na serwer?
